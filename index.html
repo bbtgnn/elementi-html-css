@@ -3,30 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Giovanni Abbatepaolo</title>
+    <title>Giovanni s</title>
   </head>
 
   <body>
     <!-- Questo è un Heading di primo livello -->
-    <h1>Ciao! Io sono Giovanni</h1>
+    <h1 class="titolo">Ciao! Io sono Giovanni</h1>
 
-    <a href="./progetti.html">Vedi i miei progetti</a>
-    <a href="https://www.instagram.com/bbt.gnn/" target="_blank">
+    <a class="link" href="./progetti.html">Vedi i miei progetti</a>
+
+    <a class="link" href="https://www.instagram.com/bbt.gnn/" target="_blank">
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"
-        alt="instagram"
-        width="20"
+        src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+        alt="Instagram bbtgnn"
+        height="20"
       />
     </a>
+    <!-- <a href="https://www.instagram.com/bbt.gnn/" target="_blank">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"
+          alt="instagram"
+          width="20"
+        />
+      </a> -->
 
     <!-- Questo è un Heading di secondo livello -->
-    <h2>Questo è il sottotitolo</h2>
+    <h2 class="titolo">Questo è il sottotitolo</h2>
 
     <!-- Questo è un Heading di terzo livello -->
-    <h3>Questo è il sotto-sottotitolo</h3>
+    <h3 class="titolo">Questo è il sotto-sottotitolo</h3>
 
     <!-- Paragrafo -->
-    <p>
+    <p class="testo">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id quam
       ipsum. Quisque interdum risus at dui tempor accumsan. Etiam venenatis
       sollicitudin feugiat. Donec convallis mi a tristique pellentesque. Nunc et
@@ -44,9 +52,52 @@
     <hr />
 
     <img
+      class="immagine"
       src="./immagini/appunti-app.jpg"
       alt="Foto del presidente Barack Obama"
-      width="300"
     />
+
+    <p class="testo">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id quam
+      ipsum. Quisque interdum risus at dui tempor accumsan. Etiam venenatis
+      sollicitudin feugiat. Donec convallis mi a tristique pellentesque. Nunc et
+      enim in orci lacinia congue. Aliquam turpis enim, rhoncus eu mi non,
+      aliquet hendrerit velit. Duis ultricies tincidunt neque, ut ullamcorper
+      lorem faucibus vel. In lacinia tortor id laoreet condimentum. Duis
+      facilisis vestibulum dui. Sed sed ligula sit amet lectus ornare aliquam et
+      sit amet lorem. Cras commodo mattis ipsum, eget pulvinar lectus tristique
+      nec. Donec luctus erat erat, sed tristique risus egestas sit amet. Aenean
+      venenatis ante non urna mollis, venenatis aliquet velit molestie. Aenean
+      pellentesque eget leo eu hendrerit. Integer et luctus magna. Aliquam
+      bibendum eu massa eget sollicitudin.
+    </p>
+
+    <!--  -->
+
+    <style>
+      .testo {
+        color: blue;
+        background-color: yellow;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        line-height: 1.5;
+      }
+
+      .titolo {
+        color: brown;
+      }
+
+      .immagine {
+        width: 100%;
+      }
+
+      .link,
+      .link:visited {
+        color: blue;
+      }
+    </style>
   </body>
 </html>
