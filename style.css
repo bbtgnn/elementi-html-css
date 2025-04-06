@@ -38,15 +38,23 @@ html {
   box-shadow: -10px 10px black;
 }
 
-.link {
+nav {
+  background-color: white;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
   color: blue;
 }
 
-.link:visited {
-  color: blue;
-}
-
-.link:hover {
-  background-color: blue;
+a:hover {
   color: white;
+  background-color: blue;
 }
